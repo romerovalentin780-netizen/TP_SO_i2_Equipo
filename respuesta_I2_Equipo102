@@ -1,1 +1,33 @@
+
 Valentin Romero, Pablo Keumurdji, Ramiro Perez
+
+Ramiro Perez:
+
+git clone https://github.com/ramajpe-boop/TP_SO_i2_Equipo
+touch fork.txt
+git add.
+git commit -m "primer commit"
+git push
+touch NevoDato.txt
+echo "Valentin Romero, Pablo Keumurdji, Ramiro Perez" >respuesta_I2_EquipoX
+git add .
+git commit -m "archivo de integrantes"
+git push
+
+Pablo Keumurdji:
+
+
+Valentin Romero:
+
+$ git clone https://github.com/romerovalentin780-netizen/TP_SO_i2_Equipo.git
+
+$ cd TP_SO_i2_Equipo/
+
+$ git add .
+
+$ git commit -m "Mi primer fork"
+
+$ git push
+
+(Entre a la pagina de GitHub SYNC FORK y luego)
+$ git pull
