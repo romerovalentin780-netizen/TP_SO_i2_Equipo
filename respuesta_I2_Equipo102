@@ -31,3 +31,5 @@ $ git push
 
 (Entre a la pagina de GitHub SYNC FORK y luego)
 $ git pull
+C- Si puede Gamma actualizar su fork al estado de alfa si quisiera. Se puede traer como remoto o puede convertir su fork en una copia exactame del de alfa
+D-
