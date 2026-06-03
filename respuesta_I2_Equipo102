@@ -1,7 +1,11 @@
-
 Valentin Romero, Pablo Keumurdji, Ramiro Perez
 
-Ramiro Perez:
+C- Si puede Gamma actualizar su fork al estado de alfa si quisiera. Se puede traer como remoto o puede convertir su fork en una copia exactame del de alfa
+D-Si se hacec un pull request y se resuelve con el editor de clonfictos no deberia de modificar la informacion si no que puede agregarla a la que ya tengo.
+
+
+E-
+############Ramiro Perez:############
 
 git clone https://github.com/ramajpe-boop/TP_SO_i2_Equipo
 touch fork.txt
@@ -14,10 +18,39 @@ git add .
 git commit -m "archivo de integrantes"
 git push
 
-Pablo Keumurdji:
+#######Pablo Keumurdji:############
+cd ~/Desktop
+git clone https://github.com/keumurdji-lgtm/TP_SO_i2_Equipo.git
+cd TP_SO_i2_Equipo
 
+git remote -v
 
-Valentin Romero:
+ipconfig
+date
+
+notepad fork.txt
+
+git status
+git add fork.txt
+git commit -m "GAMMA agrega datos en fork.txt"
+git push origin main
+
+git remote add upstream https://github.com/ramajpe-boop/TP_SO_i2_Equipo.git
+
+git fetch upstream
+git merge upstream/main
+git push origin main
+
+git pull origin main
+
+notepad respuesta_I2_Equipo102.txt
+
+git status
+git add respuesta_I2_Equipo102.txt
+git commit -m "GAMMA responde preguntas a y b"
+git push origin main
+
+#################Valentin Romero:###########
 
 $ git clone https://github.com/romerovalentin780-netizen/TP_SO_i2_Equipo.git
 
@@ -31,5 +64,3 @@ $ git push
 
 (Entre a la pagina de GitHub SYNC FORK y luego)
 $ git pull
-C- Si puede Gamma actualizar su fork al estado de alfa si quisiera. Se puede traer como remoto o puede convertir su fork en una copia exactame del de alfa
-D-Si se hacec un pull request y se resuelve con el editor de clonfictos no deberia de modificar la informacion si no que puede agregarla a la que ya tengo.
